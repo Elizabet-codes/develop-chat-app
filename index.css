@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.container{
+    width:80%;
+    height:100vh;
+    margin: 2rem auto;
+    background-image: linear-gradient(to right top, #78ad0c, #009a69, #007b89, #345871, #3e3e3e);
+    text-align: center;
+}
+
+h1, h2{
+    margin-top: 1rem;
+    color:White;
+}
+
+.chat-rooms{
+    margin-top: 4rem;
+}
+
+.btn-room {
+    outline:none;
+    border:none;
+    margin:.5rem;
+    padding:.6rem .5rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: .9rem;
+ cursor: pointer;
+}
+
+.btn-room:hover{
+    background: grey;
+    color:white;
+    transition:.4s;
+}
+
+form{
+    margin-top: 2rem;
+ 
+    
+   
+}
+
+.btn-send,.btn-update{
+    outline:none;
+    border:none;
+    width:10rem;
+    padding:1.4rem 0;
+    margin:1rem;
+    border-radius:.5rem;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: bold;
+  
+}
+
+.btn-send:hover,.btn-update:hover{
+    color:white;
+    background: grey;
+    transition:.4s;
+}
+
+.btn-send{
+    background: rgb(223, 30, 62);
+    color:rgb(196, 216, 21);
+}
+.btn-update{
+    background: rgb(44, 165, 44);
+    
+}
+
+.display-area{
+    height:50vh;
+}
+li{
+    list-style: none;
+    margin-top:4rem;
+    background:pink;
+}
+
+.username{
+    font-weight:bold;
+    font-size:1.9rem;
+}
+input{
+    /* width:9rem; */
+    padding:1rem;
+    
+    font-size: 1.1rem;
+}
